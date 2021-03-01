@@ -122,7 +122,7 @@
                             "default": true
                         }
                     ],
-                    "postUrl": "https://my-json-server.typicode.com/ericc0504/Placeholder/submitFormSuccess",
+                    "postUrl": "https://my-json-server.typicode.com/ericc0504/Placeholder/submitFormSuccess"
                 },
                 {
                     "id": "4",
