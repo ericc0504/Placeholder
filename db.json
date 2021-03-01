@@ -1,0 +1,186 @@
+{
+    "submitFormSuccess": {
+        "status": "success",
+        "refNum": "0c5e8a76-8de9-4902-a9ab-26a7c83ec398"
+    },
+    "submitFormFail": {
+        "status": "fail"
+    },
+    "formData": {
+        "version": "1.0.0",
+        "title": "Voluntary Health Insurance Scheme (VHIS) Migration",
+        "postUrl": "https://my-json-server.typicode.com/ericc0504/Placeholder/submitFormSuccess",
+        "screens": [
+            {
+                "id": "1",
+                "type": "migrationIntro",
+                "toPlanTitle": "PRUHealth FlexiChoice Medical Plan",
+                "migrationDocs": {
+                    "docs": [
+                        {
+                            "title": "Product Brochure",
+                            "subtitle": "",
+                            "url": "https://www.prudential.com.hk/export/sites/prudential-hk/en/.galleries/pdf/brochure/pruhealth-flexichoice-medical-plan-product-brochure.pdf"
+                        },
+                        {
+                            "title": "Migration Arrangment Flyer",
+                            "subtitle": "",
+                            "url": "https://www.prudential.com.hk/export/sites/prudential-hk/en/.galleries/pdf/brochure/vhis-migration-flyer-en.pdf"
+                        },
+                        {
+                            "title": "Note for Migration (including Product Comparison)",
+                            "subtitle": "- Chinese version only",
+                            "url": "https://www.prudential.com.hk/opencms/pages/download/others/VFPR/MBC_VFPR_W_USD_v2020-09.pdf"
+                        }
+                    ],
+                    "additionalInfo": "Please refer to 'The designated supplementary benefit' related information. If you would like to obtain the materials in English version for reference before making the decision, please contact your licensed insurance intermediary for assistance.",
+                    "additionalBtnTitle": "Migration Customer Offer",
+                    "additionalBtnUrl": "https://www.google.com"
+                }
+            },
+            {
+                "id": "2",
+                "type": "simplifiedUnderwritingQuestion",
+                "defaultErrMsg": "According to your answers, VHIS migration application cannot be processed at this moment. Please contact your licensed insurance intermediary for further action.",
+                "questions": [
+                    {
+                        "type": "radioBtn",
+                        "name": "hadCancer",
+                        "question": "Has the life Assured ever had cancer?",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "defaultOption": "No",
+                        "validation": "No"
+                    },
+                    {
+                        "type": "radioBtn",
+                        "name": "hadKidneyDiseases",
+                        "question": "Has the Life Assured ever had chronic kidney diseases? (eg. Kidney failure, etc.)",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "defaultOption": "No",
+                        "validation": "No"
+                    },
+                    {
+                        "type": "radioBtn",
+                        "name": "hadMentalDisorders",
+                        "question": "In the past 7 years, has the Life Assured ever had ay sign or symptioms of mental disorders (e.g. mood problem , anxiety state, etc.) or had even advised to have medication , follow up, treatment for mental diseases by a registered medical doctor?",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "defaultOption": "No",
+                        "validation": "No"
+                    },
+                    {
+                        "type": "radioBtn",
+                        "name": "hadInheritedDisorders",
+                        "question": "Has the Life Assured ever had inherited disorder (e.g. huntington's disease, Motor neuron disease , etc.) or developmental disorder (eg. attention deficit hyperactivity discorder(ADHD), intellectual impairment, etc.)?",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "defaultOption": "No",
+                        "validation": "No"
+                    }
+                ]
+            },
+            {
+                "id": "3",
+                "type": "terms",
+                "description": "After completion of migration application, we will issue endorsement and terms & conditions with details on new premium and effective date of supplementary benefit.",
+                "defaultErrMsg": "Please agree the terms.",
+                "terms": [
+                    {
+                        "name": "agreement1",
+                        "text": "I, the Policyowner, declare I have read and understood the contents of Product Brochure and Migration Documents.",
+                        "default": false,
+                        "validation": true,
+                        "errMsg": "Please confirm you have read Product Brochure and Migration Documents."
+                    },
+                    {
+                        "name": "agreement2",
+                        "text": "I, the Policyowner, declare I am located in Hong Kong at the time of submitting this migration application.",
+                        "default": false,
+                        "validation": true
+                    },
+                    {
+                        "name": "agreement3",
+                        "text": "I/We declare that I have read, understood and agreed to the <button>terms & conditions.</button>",
+                        "url": "https://google.com",
+                        "default": false,
+                        "validation": true
+                    },
+                    {
+                        "name": "agreement4",
+                        "text": "Prudential intends to send you marketing communications but you can only do so with your consent. If you consent, Prudential may use your contact details and information about the products you have purchased (including the sales channel from which such products were purchased). If agree, please tick the box provided on the left.",
+                        "default": true
+                    }
+                ]
+            },
+            {
+                "id": "4",
+                "type": "migrationResult",
+                "successMsg": "Your application for VHIS migration has been submitted successfully. Please find the application details as below.\r\nMigration application shall not be valid until it is finally confirmed by Prudential by way of a letter. You can refer to myPrudential for letter details."
+            }
+        ],
+        "policyData": {
+            "from_pay_mode": "A",
+            "to_benf_name_eng": "PRUHealth FlexiChoice Medical Plan",
+            "to_benf_opt_chi": "半私家病房 不附額外醫療計劃",
+            "to_premium": 301,
+            "incpt_dt": "2021-03-01",
+            "from_pol_no": "000020144549",
+            "to_pay_mode": "A",
+            "create_dt": "2021-02-03T11:13:46",
+            "id": "QR0000000001",
+            "to_benf_cd": "VFPR",
+            "sent_dt": null,
+            "offer_type": null,
+            "p_name_chi": "0206先生",
+            "phone_no_1": "95213293",
+            "phone_no_2": "95213293",
+            "to_benf_type": null,
+            "last_upd_dt": "2021-02-05T16:28:45",
+            "pay_mode_chi": "年繳",
+            "ccy_chi": "美元",
+            "from_benf_cd": "MLP",
+            "to_pol_no": "000020144549",
+            "from_benf_opt_eng": "Semi-Private without PRUmed major",
+            "success_fg": 0,
+            "lp_name_eng": "MS 20200206",
+            "from_benf_type": null,
+            "from_benf_name_chi": "終身保醫療計劃",
+            "p_dob": null,
+            "status": "O",
+            "to_benf_opt_eng": "Semi-Private without PRUmed major",
+            "with_email": "N",
+            "error_cd": "    ",
+            "from_ccy": "USD",
+            "phone_area_2": "852",
+            "phone_area_1": "852",
+            "p_name_eng": "MR CHAN",
+            "lp_dob": "2010-01-01",
+            "submit_dt": "2021-02-05",
+            "to_benf_name_chi": "保誠靈活自主醫保計劃",
+            "pay_mode_eng": "ANNUAL",
+            "from_premium": 6790,
+            "to_ccy": "USD",
+            "to_benf_opt_cd3": null,
+            "create_usr": "LPS6233U",
+            "to_benf_opt_cd4": null,
+            "to_benf_opt_cd1": "SP      ",
+            "to_benf_opt_cd2": "N       ",
+            "ccy_eng": "USD",
+            "lp_name_chi": "0206女士",
+            "last_upd_usr": "LPS6233U",
+            "from_benf_name_eng": "PRUmed lifelong care plan",
+            "from_benf_opt_chi": "半私家病房 不附額外醫療計劃",
+            "to_benf_opt_cd5": null
+        }
+    }
+}
