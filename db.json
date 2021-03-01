@@ -11,7 +11,6 @@
         "body": {
             "version": "1.0.0",
             "title": "Voluntary Health Insurance Scheme (VHIS) Migration",
-            "postUrl": "https://my-json-server.typicode.com/ericc0504/Placeholder/submitFormSuccess",
             "screens": [
                 {
                     "id": "1",
@@ -122,7 +121,8 @@
                             "text": "Prudential intends to send you marketing communications but you can only do so with your consent. If you consent, Prudential may use your contact details and information about the products you have purchased (including the sales channel from which such products were purchased). If agree, please tick the box provided on the left.",
                             "default": true
                         }
-                    ]
+                    ],
+                    "postUrl": "https://my-json-server.typicode.com/ericc0504/Placeholder/submitFormSuccess",
                 },
                 {
                     "id": "4",
