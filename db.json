@@ -1,5 +1,4 @@
 {
-  "server": "https://my-json-server.typicode.com/ericc0504/Placeholder/db",
   "getRole": [{"role": "staff"}, {"role": "agent", "code": "100010183"}, {"role": "SCB"}],
   "getOtp": [{"status": "success"}, {"status": "tooFrequent"}, {"status": "unknownError"}],
   "validateOtp": [{"status": "success"}, {"status": "expired"}, {"status": "invalid"}, {"status": "unknownError"}],
