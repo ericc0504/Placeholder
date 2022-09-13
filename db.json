@@ -1,3 +1,12 @@
 {
-  "policyAck": {"status": "success"}
+  "policyAck": [
+    {
+      "id": "success",
+      "status": "success"
+    },
+    {
+      "id": "error",
+      "status": "error"
+    }
+  ]
 }
