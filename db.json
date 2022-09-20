@@ -2,11 +2,13 @@
   "policyAck": [
     {
       "id": "success",
-      "status": "success"
+      "responseCode": "200",
+      "responseMessage": "Success"
     },
     {
       "id": "error",
-      "status": "error"
+      "responseCode": "500",
+      "responseMessage": "Error"
     }
   ]
 }
