@@ -1,14 +1,12 @@
 {
-  "policyAck": [
-    {
-      "id": "success",
-      "responseCode": "200",
-      "responseMessage": "Success"
-    },
-    {
-      "id": "error",
-      "responseCode": "500",
-      "responseMessage": "Error"
+  "api": {
+    "emma": {
+      "referral": {
+        "campaignId": "7011y0000007snZAAQ",
+        "referralCode": "",
+        "campaignStatus": "Not_Enrolled",
+        "eligible": "Y"
+      }
     }
-  ]
+  }
 }
